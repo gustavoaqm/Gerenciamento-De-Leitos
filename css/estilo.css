@@ -1,0 +1,43 @@
+*{
+	/*background-color: #2F4F4F;*/
+	color: white;
+}
+
+body{
+	background: transparent url('../imagens/imagem.jpg') center center no-repeat fixed;
+	margin: 0;
+}
+
+table{
+	border:1px solid white;
+	text-align: center;
+}
+
+td{
+	height: 50px;
+	padding: 15px;
+}
+
+th {
+  background-color: #343842;
+  color: white;
+  height: 50px;
+  padding: 15px;
+}
+
+td:hover {background-color: rgba(0,0,0,0.1);}
+
+.borda{
+	border-radius: 5px;
+	border: 2px solid rgba(255,255,255,0.3);
+	padding: 20px;
+	background: rgba(255,255,255,0.1);
+}
+
+
+#right {
+    width: 50%;
+    display: inline-block;
+    margin-right: 5%;
+    float:left;
+}
